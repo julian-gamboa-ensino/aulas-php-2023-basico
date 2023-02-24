@@ -151,7 +151,7 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-docker-compose version
+sudo docker-compose version
 
 #### #### #### #### Passo 5: Instalando Composer
 
@@ -167,7 +167,7 @@ cd  fev242023
 
 wget https://raw.githubusercontent.com/tderflinger/terraform-ec2-spot/master/terraform/spot-ec2.tf
 
-curl -s https://laravel.build/laravel-dev-blog | bash
+sudo curl -s https://laravel.build/laravel-dev-blog | bash
 
 cd laravel-dev-blog/
 
